@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.981 sec <<< FAILURE!
+Verify the Delete API functionality working(Validating Place API's)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinations.StepDefination.user_calls_with_http_request(StepDefination.java:59)
+	at stepDefinations.Hooks.beforeScenario(Hooks.java:17)
+
